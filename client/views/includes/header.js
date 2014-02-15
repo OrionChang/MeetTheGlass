@@ -8,5 +8,13 @@ Template.header.helpers({
     });
     
     return active && 'active';
+  },
+  
+  recentPostsLink: function(){
+	  return __('includes.header.recentPostsLink');
+  },
+	
+  popularPostsLink: function(){
+	  return __('includes.header.popularPostsLink');
   }
 });
