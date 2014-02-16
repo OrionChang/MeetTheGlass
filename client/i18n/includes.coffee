@@ -31,3 +31,6 @@ Meteor.i18nMessages.includes =
 
     backToLoginLink:
       cn: '取消'
+
+    loginDropdownLabel:
+      cn: '登入 & 注册'

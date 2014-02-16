@@ -31,6 +31,5 @@ Template.header.rendered = function () {
   $('#login-buttons-password').text(__('includes.header.signinLink'));
   $('#login-password-again-label').text(__('includes.header.loginPasswordAgainLabel'));
   $('#back-to-login-link').text(__('includes.header.backToLoginLink'));
-
-
+  $('#login-dropdown-list .dropdown-toggle').text(__('includes.header.loginDropdownLabel')).append('&nbsp;<strong class="caret"></strong>');
 };
