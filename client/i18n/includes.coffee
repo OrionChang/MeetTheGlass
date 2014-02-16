@@ -9,4 +9,25 @@ Meteor.i18nMessages.includes =
       cn: '最新'
       
     popularPostsLink:
-      cn: '最受欢迎'
+      cn: '热门'
+
+    newPostLink:
+      cn: '发布'
+
+    loginUsernameLabel:
+      cn: '用户名'
+
+    loginPasswordLabel:
+      cn: '密码'
+
+    signupLink:
+      cn: '注册'
+
+    signinLink:
+      cn: '登入'
+
+    loginPasswordAgainLabel:
+      cn: '密码（重复）'
+
+    backToLoginLink:
+      cn: '取消'

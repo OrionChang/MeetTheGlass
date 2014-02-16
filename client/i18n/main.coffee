@@ -1,5 +1,1 @@
-
-	
-	
-
 Meteor.setLocale('cn')
