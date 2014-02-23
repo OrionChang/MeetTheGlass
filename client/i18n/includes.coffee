@@ -1,3 +1,6 @@
+# including accouts ui
+
+
 Meteor.i18nMessages.includes =
   header:
     recentPostsLink:
@@ -70,3 +73,6 @@ Meteor.i18nMessages.includes =
     loginCloseLink:
       cn: '取消'
 
+
+
+    

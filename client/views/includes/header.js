@@ -36,12 +36,15 @@ Template.header.rendered = function () {
   $('#login-password-again-label').text(__('includes.header.loginPasswordAgainLabel'));
 
   $('#signup-link').text(__('includes.header.signupLink'));
-  $('#login-buttons-password').text(__('includes.header.signinLink'));
   $('#forgot-password-link').text(__('includes.header.forgotPasswordLink'));
 
   
-  
-  $('#back-to-login-link').text(__('includes.header.backToLoginLink'));
+  if ($('#back-to-login-link').length >= 1) {
+    $('#login-buttons-password').text(__('includes.header.signupLink'));
+    $('#back-to-login-link').text(__('includes.header.backToLoginLink'));
+  } else {
+    $('#login-buttons-password').text(__('includes.header.signinLink'));
+  };
   
   $('#login-buttons-forgot-password').text(__('includes.header.forgotPasswordSendEmailLink'));
 

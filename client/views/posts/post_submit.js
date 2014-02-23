@@ -21,3 +21,13 @@ Template.postSubmit.events({
     });
   }
 });
+
+Template.postSubmit.helpers({
+  titleLabel: function () {
+    return __('posts.postSubmit.titleLabel');
+  },
+
+  messageLabel: function () {
+    return __('posts.postSubmit.messageLabel');
+  }
+});
